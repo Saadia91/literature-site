@@ -6,7 +6,7 @@
 	font-family: 'Sunflower', sans-serif;
 }
 body {
-	background-color: #f9f9f9;
+	background-color: #f2f2f2;
 }
 .navi {
 	position: fixed;
@@ -15,7 +15,7 @@ body {
 	z-index: 1;
 }
 .navi li a {
-	color: #9e9e9e;
+	color: #37474F;
 }
 .nav-links-top {
 	position: fixed;
@@ -25,17 +25,16 @@ body {
 }
 .nav-links-top a {
 	font-size: 20px;
-	color: #9e9e9e
+	color: #37474F;
 }
 .nav-links-top a:hover {
 	color: #757575;
 }
 
 .title {
-	margin-top: 170px;
+	margin-top: 130px;
 	text-align: center;
-	color: #37474F;
-	font-family: 'Jua', sans-serif;
+	color: #fff;
 }
 .social1 {
 	border-radius: 50%;
@@ -46,8 +45,25 @@ body {
     margin-right: 10px;
     font-size: 15px;
 }
-main {
-
+.bg-img {
+	margin-top: 100px;
+	height: 250px;
+}
+@media (max-width: 600px) {
+	.box {
+		margin: 5px;
+		padding: 10px;
+		border: 1px solid #fff;
+	}
+}
+.post-title {
+	font-weight: bold;
+}
+.post-writing {
+	font-family: 'Courgette', cursive;
+}
+.post-writing a {
+	font-family: 'Courgette', cursive;
 }
 .post-section {
 	margin-top: 150px;
@@ -55,8 +71,9 @@ main {
 }
 .post-outer {
 	background: #fff;
-	padding: 15px;
+	padding: 40px;
 	margin-bottom: 15px;
+	font-family: 'Courgette', cursive;
 }
 
 /*----------POEMS----------*/

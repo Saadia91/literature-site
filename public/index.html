@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" class="full-height">
 	<head>
-		<link href="https://fonts.googleapis.com/css?family=Jua|Sunflower:300" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Courgette|Jua|Sunflower:300" rel="stylesheet">
+		<!-- Jarallax -->
+      <script src="https://unpkg.com/jarallax@1.10/dist/jarallax.min.js"></script>
+      <!-- Include it if you want to parallax any element -->
+      <script src="https://unpkg.com/jarallax@1.10/dist/jarallax-element.min.js"></script>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -32,10 +36,13 @@
 
 
 
-		<!--Main Navigation-->
+		<!--Main Navigation End-->
 
-
-		<h1 class="title mb-5">her written word</h1>
+		<div class="bg-img jarallax" data-jarallax='{"speed": 0.5}' style="background-image: url(written.jpg);">
+			<div class="mask flex-center rgba-black-slight">
+				<h1 class="title mb-5">her written word</h1>
+			</div>
+		</div>
 
 		<!--SOCIAL BUTTONS-->         
 
@@ -48,100 +55,146 @@
 		</div>
 
 		<main>
-			<div class="container clearfix">
+			<div class="container-fluid clearfix">
 				<div class="post-section">
 
-					<div class="row"><a name="stories"></a>
-						<div class="col-md-4">
+					<div class="row mb-5"><a name="stories"></a>
+
+						<div class="col-lg-3 col-md-6 mt-1">
+							<div class="post view zoom">
+								<img class="post-img" src="stories/hike.jpg" style="width: 100%;">
+							</div>								
+						</div>
+						<div class="col-lg-3 col-md-6">
 							<div class="post-outer">
-								<div class="post view zoom">
-									<img class="post-img" src="stories/going.jpg" style="width: 100%;">
-								</div>
-								<p class="post-title">On The Road Again</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+								<h6 class="post-title">Take a Hike</h6>
+								<p class="post-writing">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in.<a href="#"> Read more...</a> </p>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div class="post-outer mt-5">
-								<div class="post view zoom">
-									<img class="post-img" src="stories/hike.jpg" style="width: 100%;">
+
+						<div class="col-lg-6 box">
+
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="post-outer">
+										<h6 class="post-title">On The Road Again</h6>
+										<p class="post-writing">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in.<a href="#"> Read more...</a> </p>
+									</div>
 								</div>
-								<p class="post-title">Take a Hike</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-							</div>
-						</div>
-						<div class="col-md-4 mt-5">
-							<div class="post-outer mt-5">
-								<div class="post view zoom">
-									<img class="post-img" src="stories/cold.jpg" style="width: 100%;">
+								<div class="col-lg-6 col-md-6">
+									<div class="post view zoom">
+										<img class="post-img" src="stories/going.jpg" style="width: 100%;">
+									</div>								
 								</div>
-								<p class="post-title">The Cold</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
 							</div>
+
 						</div>
+
 					</div>
 
-					<div class="row">
-						<div class="col-md-4">
+
+					<div class="row mt-5 mb-5">						
+
+						<div class="col-lg-3 col-md-6">
+							<div class="post view zoom">
+								<img class="post-img" src="stories/cold.jpg" style="width: 100%;">
+							</div>								
+						</div>
+						<div class="col-lg-3 col-md-6">
 							<div class="post-outer">
-								<div class="post view zoom">
-									<img class="post-img" src="stories/friend.jpg" style="width: 100%;">
-								</div>
-								<p class="post-title">Your delightful friend</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+								<h6 class="post-title">The Cold</h6>
+								<p class="post-writing">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in.<a href="#"> Read more...</a> </p>
 							</div>
 						</div>
-						<div class="col-md-4 mt-5">
-							<div class="post-outer mt-5">
-								<div class="post view zoom">
-									<img class="post-img" src="stories/leaf.jpg" style="width: 100%;">
+
+						<div class="col-lg-6 box">
+
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="post-outer">
+										<h6 class="post-title">Your Delightful Friend</h6>
+										<p class="post-writing">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in.<a href="#"> Read more...</a> </p>
+									</div>
 								</div>
-								<p class="post-title">Autmn Leaves</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="post-outer mt-5">
-								<div class="post view zoom">
-									<img class="post-img" src="stories/lonely.jpg" style="width: 100%;">
+								<div class="col-lg-6 col-md-6">
+									<div class="post view zoom">
+										<img class="post-img" src="stories/friend.jpg" style="width: 100%;">
+									</div>								
 								</div>
-								<p class="post-title">Lonely</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
 							</div>
+
 						</div>
+
 					</div>
 
-					<div class="row">
-						<div class="col-md-4 mt-5">
-							<div class="post-outer mt-5">
-								<div class="post view zoom">
-									<img class="post-img" src="stories/determination.jpg" style="width: 100%;">
-								</div>
-								<p class="post-title">Justice</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-							</div>
+					<div class="row mt-5 mb-5">
+						
+						<div class="col-lg-3 col-md-6">
+							<div class="post view zoom">
+								<img class="post-img" src="stories/beach.jpg" style="width: 100%;">
+							</div>								
 						</div>
-						<div class="col-md-4">
-							<div class="post-outer mt-5">
-								<div class="post view zoom">
-									<img class="post-img" src="stories/drowning.jpg" style="width: 100%;">
-								</div>
-								<p class="post-title">Drowning</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
-							</div>
-						</div>
-						<div class="col-md-4">
+						<div class="col-lg-3 col-md-6">
 							<div class="post-outer">
-								<div class="post view zoom">
-									<img class="post-img" src="stories/beach.jpg" style="width: 100%;">
+								<h6 class="post-title">Once Upon a Vacation</h6>
+								<p class="post-writing">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in.<a href="#"> Read more...</a> </p>
+							</div>
+						</div>						
+
+						<div class="col-lg-6 box">
+
+							<div class="row">
+								<div class="col-lg-6 col-md-6">
+									<div class="post-outer">
+										<h6 class="post-title">Drowning</h6>
+										<p class="post-writing">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+										tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+										quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+										consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+										cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+										proident, sunt in.<a href="#"> Read more...</a> </p>
+									</div>
 								</div>
-								<p class="post-title">Once Upon A Vacation</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do</p>
+								<div class="col-lg-6 col-md-6">
+									<div class="post view zoom">
+										<img class="post-img" src="stories/drowning.jpg" style="width: 100%;">
+									</div>								
+								</div>
 							</div>
 						</div>
+
 					</div>
 
 				</div>
+
+			</div>
+
+			<div class="container">
 
 
 				<div class="quote text-center">
