@@ -42,11 +42,19 @@ body {
 }
 @media (max-width: 600px) {
 	.box {
-		margin: 5px;
+		margin: 10px 5px;
 		padding: 10px;
-		border: 1px solid #fff;
+	}
+	.box .post {
+		margin-top: -15px;
 	}
 }
+@media (max-width: 900px) {
+	.box {
+		padding-top: 40px;
+	}
+}
+
 .post-title {
 	font-weight: bold;
 }
