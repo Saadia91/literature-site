@@ -77,7 +77,7 @@ body {
 
 /*----------POEMS----------*/
 .section-title {
-	font-family: 'Jua', sans-serif;
+	font-family: 'Satisfy', cursive;
 }
 .left-content {
 	margin-top: 150px;
@@ -161,7 +161,7 @@ body {
 	padding: 20px;
 }
 .about-me {
-	font-family: 'Jua', sans-serif;
+	font-family: 'Satisfy', cursive;
 }
 
 
@@ -173,7 +173,7 @@ body {
 .list-head {
 	margin-bottom: 50px;
 	font-weight: bold;
-	font-size: 20px;
+	font-family: 'Satisfy', cursive;
 }
 .pre-foot ul {
   list-style-type: none;
