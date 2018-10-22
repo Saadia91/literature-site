@@ -74,6 +74,11 @@ body {
 	margin-bottom: 15px;
 	font-family: 'Courgette', cursive;
 }
+@media(min-width: 1000px) {
+	.long-story {
+		max-width: 90% !important;
+	}
+}
 
 /*----------POEMS----------*/
 .section-title {
